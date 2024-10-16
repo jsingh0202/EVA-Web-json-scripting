@@ -17,10 +17,10 @@ The data labelled 'ProjectAnalysis.json' is data retrieved directly from the EVA
 
 You may run step 2 once you have a venv set up for this project in the future.
 
-## mattevatasks.ipynb
+## mattevatasks
 
-This script takes data that Matt provides directly from the database. It is heavily nested and difficult to work with. The reason the script exists was to retrieve a list of valid 'ids'. Essentially, it provides a list of valid EVA ids that are currently in the EVA Site. I do not recommend using this data or this script to retrieve data regarding the EVA. Instead, refer to evajson.ipynb.
+This script takes data that Matt provides directly from the database. It is heavily nested and difficult to work with. The reason the script exists was to retrieve a list of valid 'ids'. Essentially, it provides a list of valid EVA ids that are currently in the EVA Site. I do not recommend using this data or this script to retrieve data regarding the EVA. Instead, refer to [this script](#evajson).
 
-## evajson.ipynb
+## evajson
 
 This script uses data directly from the EVA site. Simply press 'download' on the site to retrieve the required data. This data is much easier to work with in regards to getting a list of valid EVA items. The script returns a csv containing data regarding all the leaf and summary EVA items.
