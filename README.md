@@ -19,7 +19,7 @@ You may run step 2 once you have a venv set up for this project in the future.
 
 ## mattevatasks
 
-This script takes data that Matt provides directly from the database. It is heavily nested and difficult to work with. The reason the script exists was to retrieve a list of valid 'ids'. Essentially, it provides a list of valid EVA ids that are currently in the EVA Site. I do not recommend using this data or this script to retrieve data regarding the EVA. Instead, refer to [this script](#evajson).
+This script takes data that Matt provides directly from the database. It is heavily nested and difficult to work with. The reason the script exists was to retrieve a list of valid 'ids'. Essentially, it provides a list of valid EVA ids that are currently in the EVA Site. I do not recommend using this data or this script to retrieve data regarding the EVA. Instead, refer to [evajson](#evajson).
 
 ## evajson
 
