@@ -2,7 +2,12 @@
 
 The scripts in this folder are run mainly via jupyter notebooks. I would recommend to run these scripts using vscode and installing the necessary extensions.
 
-## Creating the Vitrual Environment (Venv or Env)
+## Data
+
+The data labelled '...EVA.json' and '...TASKS.json' are data files retrieved from Matt which reflect the current state of the EVA.
+The data labelled 'ProjectAnalysis.json' is data retrieved directly from the EVA Site.
+
+## Creating the Virtual Environment on Windows (Venv or Env)
 
 1. To create the venv, run `python -m venv env` in the project terminal. This may take some time.
 2. Then run `env\Scripts\activate`.
