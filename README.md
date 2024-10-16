@@ -14,8 +14,7 @@ The data labelled 'ProjectAnalysis.json' is data retrieved directly from the EVA
 1. To create the venv, run `python -m venv env` in the project terminal. This may take some time.
 2. Then run `env\Scripts\activate`.
 3. Install all the requirements by running `pip install -r requirements.txt`
-4. If you add any new dependencies, run `pip freeze > requirements.txt`.
-5. Once you finish, run `deactivate` to deactivate the venv.
+4. Once you finish, run `deactivate` to deactivate the venv.
 
 You may run step 2 once you have a venv set up for this project in the future.
 
