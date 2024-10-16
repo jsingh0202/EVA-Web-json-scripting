@@ -31,6 +31,7 @@ Now simply run through the notebooks however you wish.
 4. Run `docker run -p 8888:8888 -v ${pwd}:/app my-jupyter-notebook` (Windows) to run the Docker Container
 5. Goto [http://127.0.0.1:8888/](http://127.0.0.1:8888/)
 6. Run the notebooks using Jupyter Lab, may need to play around with requirement.txt a little.
+7. Stop the Docker Container by pressing `Ctrl+C` in the terminal.
 
 ## mattevatasks
 
