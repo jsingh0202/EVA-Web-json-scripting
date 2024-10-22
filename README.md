@@ -24,7 +24,7 @@ If you are using the `ProjectAnalysis.json` file, using the R script is preferre
 
 ### evajson.r
 
-This script takes `ProjectAnalysis.json` and optionally does a few things. A useful thing this script does is take the EVA data and export a csv detailing information similar to information in the `PCL` sheet in the `Cost Summary for EVA` Google Worksheet. The data can be used to audit the work of the person entering in the PCL data into the EVA by making sure the export data matches with the data found in the Google Sheet. 
+This script takes `ProjectAnalysis.json` and optionally does a few things. A useful thing this script does is take the EVA data and export a csv detailing information similar to information in the `PCL` sheet in the `Cost Summary for EVA` Google Worksheet. The data can be used to audit the work of the person entering in the PCL data into the EVA by making sure the export data matches with the data found in the Google Sheet. Similarly does the same thing for the SAP Data.
 
 ## Running Locally
 
