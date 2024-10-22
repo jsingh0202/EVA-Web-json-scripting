@@ -20,19 +20,19 @@ eva_pcl_longer <- df %>%
 
 write.csv(eva_pcl_longer, "eva_pcl_longer.csv", row.names = FALSE)
 
-# graph the planned costs of the summary tas# graph the planned costs of the summary tas# graph the planned costs of the summary tasks
-orderList <- aggregate(list(plannedCost=df$plannedCost), 
-                       by=list(parentName=df$parentName), 
-                       FUN=sum)
+# graph the planned costs of the summary tasks
+order_list <- aggregate(list(plannedCost = df$plannedCost),
+                        by = list(parentName = df$parentName),
+                        FUN = sum)
 
-p <- orderList %>% 
-     ggplot(aes(x = reorder(parentName, plannedCost),
-                 y = plannedCost)) + 
-     geom_col() + scale_y_continuous(labels = scales::label_dollar()) +
-     coord_flip() +
-     labs(title = "Planned Cost of Task Summaries under PCL Main Contract",
-          x = "Task Summaries",
-          y = "Planned Cost")
+p <- order_list %>%
+  ggplot(aes(x = reorder(parentName, plannedCost),
+             y = plannedCost)) +
+  geom_col() + scale_y_continuous(labels = scales::label_dollar()) +
+  coord_flip() +
+  labs(title = "Planned Cost of Task Summaries under PCL Main Contract",
+       x = "Task Summaries",
+       y = "Planned Cost")
 p
 
 # Define the range of column names
