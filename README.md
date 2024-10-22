@@ -1,11 +1,30 @@
 # EVA-Web-json-scripting
 
-The scripts in this folder are run mainly via jupyter notebooks. I would recommend to run these scripts using vscode and installing the necessary extensions.
+R:
+
+- Use R instead of the python scripts, it is easier to read, deploy, run, and understand.
+
+Python:
+
+- The scripts in this folder are run mainly via jupyter notebooks. I would recommend to run these scripts using vscode and installing the necessary extensions.
 
 ## Data
 
 The data labelled '...EVA.json' and '...TASKS.json' are data files retrieved from Matt which reflect the current state of the EVA.
 The data labelled 'ProjectAnalysis.json' is data retrieved directly from the EVA Site.
+
+## Running using R
+
+If you are using the `ProjectAnalysis.json` file, using the R script is preferred. This avoids setting up a virtual environment or running docker to run the python scripts.
+
+1. Ensure R is installed.
+2. Optionally download a GUI for R (R-Studio).
+3. Install required Packages.
+4. Run `evajson.r`.
+
+### evajson.r
+
+This script takes `ProjectAnalysis.json` and optionally does a few things. A useful thing this script does is take the EVA data and export a csv detailing information similar to information in the `PCL` sheet in the `Cost Summary for EVA` Google Worksheet. The data can be used to audit the work of the person entering in the PCL data into the EVA by making sure the export data matches with the data found in the Google Sheet. 
 
 ## Running Locally
 
